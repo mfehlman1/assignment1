@@ -15,7 +15,6 @@ In it, design a web page with the following characteristics:
 - the footer should contain an a link that, on click, will open the user's default email app with To: file equal to your email address. The text of the link should be your name. (1 point)
 
 Within these requirements you can be creative.
-Commit your code and push it to your class-assigned github repo.
 
 ## Grading
 
