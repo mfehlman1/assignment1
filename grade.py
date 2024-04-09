@@ -170,7 +170,7 @@ class Assignment(ProtoAssignment):
         for card in self.cards:
             title = card.find(class_="card-header-title")
             if title:
-                name = title.text.lower()
+                name = title.text.strip().lower()
                 if name in expected:
                     expected.remove(name)
                     button = card.find("button", class_=f"is-{name}")
